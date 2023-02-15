@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'gcc newfile.cpp -o myoutput'
+                sh 'gcc main/newfile.cpp -o myoutput'
                 build 'PES1UG21CS813-1'
             }
         }
