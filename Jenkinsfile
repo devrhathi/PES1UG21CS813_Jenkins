@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './WRONG_FILE'
+                sh './myoutput'
             }
         }
         stage('Deploy') {
